@@ -1,8 +1,16 @@
 package org.example.calculator;
 
+import org.example.calculator.strategies.AddOperation;
+import org.example.calculator.strategies.DivideOperation;
+import org.example.calculator.strategies.MultiplyOperation;
+import org.example.calculator.strategies.SubtractOperation;
+
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Basic calculator implementation that supports different operations.
+ */
 public class BasicCalculator implements Calculator {
 
     private final Map<Operation, OperationStrategy> strategies = new HashMap<>();

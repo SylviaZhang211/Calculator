@@ -1,5 +1,10 @@
-package org.example.calculator;
+package org.example.calculator.strategies;
 
+import org.example.calculator.OperationStrategy;
+
+/**
+ * Strategy for multiplication operation.
+ */
 public class MultiplyOperation implements OperationStrategy {
     @Override
     public Number execute(Number num1, Number num2) {
