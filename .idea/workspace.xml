@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c75918e-22e8-4679-8edc-36d88e53043d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,6 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,9 +68,6 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3c75918e-22e8-4679-8edc-36d88e53043d" name="Changes" comment="" />
@@ -79,9 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724880943768</updated>
       <workItem from="1724880944954" duration="2338000" />
-      <workItem from="1724956215775" duration="8915000" />
-      <workItem from="1724967534719" duration="177000" />
-      <workItem from="1724967894753" duration="806000" />
+      <workItem from="1724956215775" duration="8692000" />
     </task>
     <servers />
   </component>
