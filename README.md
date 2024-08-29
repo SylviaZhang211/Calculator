@@ -62,33 +62,33 @@ To use the `BasicCalculator`:
     System.out.println(result); // Outputs: 8.0
     ```
 
-3. **Chain Multiple Operations**:
+   3. **Chain Multiple Operations**:
 
-   You can chain multiple operations in two ways:
+      You can chain multiple operations in two ways:
 
-   **Using `BasicCalculator`**:
-     ```java
-     Object[][] operations = {
-         {Operation.ADD, 10},
-         {exponentiation, 2},
-         {Operation.MULTIPLY, 2},
-         {Operation.SUBTRACT, 100}
-     };
+      **Using `BasicCalculator`**:
+        ```java
+        Object[][] operations = {
+            {Operation.ADD, 10},
+            {exponentiation, 2},
+            {Operation.MULTIPLY, 2},
+            {Operation.SUBTRACT, 100}
+        };
   
-     Number chainResult = calculator.chainCalculate(10, operations);
-     System.out.println(chainResult); // Outputs: 700.0
-   ```
-   **Using `ChainCalculatorBuilder`**:
-   ```java
-       Number chainResult = new ChainCalculatorBuilder()
-            .setInitValue(10)
-            .addOperation(Operation.ADD, 10)
-            .addOperation(exponentiation, 2)
-            .addOperation(Operation.MULTIPLY, 2)
-            .addOperation(Operation.SUBTRACT, 100)
-            .calculate();
+        Number chainResult = calculator.chainCalculate(10, operations);
+        System.out.println(chainResult); // Outputs: 700.0
+      ```
+      **Using `ChainCalculatorBuilder`**:
+      ```java
+          Number chainResult = new ChainCalculatorBuilder()
+               .setInitValue(10)
+               .addOperation(Operation.ADD, 10)
+               .addOperation(exponentiation, 2)
+               .addOperation(Operation.MULTIPLY, 2)
+               .addOperation(Operation.SUBTRACT, 100)
+               .calculate();
     
-     System.out.println(chainResult); // Outputs: 700.0
+        System.out.println(chainResult); // Outputs: 700.0
   
 
 ### Running Tests
